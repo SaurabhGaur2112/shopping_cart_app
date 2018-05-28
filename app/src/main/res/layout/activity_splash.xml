@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/splash_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_bg"
+        android:scaleType="fitStart"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="36dp"
+        >
+
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="150dp"
+            android:text="@string/splash_welcome_txt" />
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/StrokeButtonStyle"
+            android:minWidth="@dimen/splash_btn_width"
+            android:text="@string/login_btn_label"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_get_started"
+            style="@style/SolidButtonStyle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:minWidth="@dimen/splash_btn_width"
+            android:text="@string/get_started_btn_label"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

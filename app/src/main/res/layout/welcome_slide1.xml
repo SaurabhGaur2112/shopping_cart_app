@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="BEST PLACE TO FIND FASHION"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="3 lakh products, 10,000 brands"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Look good, anytime, anywhere"
+        />
+
+    <RelativeLayout
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/mobileouter">
+
+        <View
+            android:id="@+id/dot"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/mobilecircle"/>
+
+        <View
+            android:id="@+id/listener"
+            android:layout_width="50dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/dot"
+            android:background="@drawable/mobilelistener"/>
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal"
+            android:background="@android:color/white"
+            >
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:src="@drawable/image1"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="BIBA"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:src="@drawable/image2"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="BIBA"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal"
+            android:background="@android:color/white"
+            android:layout_below="@id/layout1">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="BIBA"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:src="@drawable/image4"
+                android:transitionName="productTransaction"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="BIBA"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:src="@drawable/image7"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/layout2"
+            android:background="@android:color/white">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:src="@drawable/image8"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:src="@drawable/image10"
+                />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:src="@drawable/image3"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="BIBA"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

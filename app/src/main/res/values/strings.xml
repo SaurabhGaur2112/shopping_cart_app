@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShoppingCart</string>
+    <string name="splash_welcome_txt">Easiest way to find the best product</string>
+    <string name="login_btn_label">Login</string>
+    <string name="get_started_btn_label">Get Started</string>
+    <string name="log_in_title">Log in to get a personalized\n experience and quick checkout</string>
+    <string name="signup_title">Sign up tp get a personalized experience\n and quick checkout</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+</resources>
